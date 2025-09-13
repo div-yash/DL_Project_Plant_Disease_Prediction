@@ -1,0 +1,13 @@
+to installing packages in venv
+we have to activate the venv first
+.\venv\Scripts\activate
+
+now we can install our packages in venv
+
+
+Run streamlit with Python (avoids PATH issues)
+Instead of just streamlit run main.py, do:
+
+python -m streamlit run main.py
+
+This guarantees it uses the streamlit installed inside .venv.
